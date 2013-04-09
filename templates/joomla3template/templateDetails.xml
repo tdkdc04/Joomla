@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3" type="template" client="site">
+	<name>joomla3template</name>
+	<creationDate>03/27/13</creationDate>
+	<author>tdkdc04</author>
+	<authorEmail>tdkdc04@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright></copyright>
+	<license></license>
+	<version>test</version>
+<description>what's up!</description>
+
+<files>
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>javascript</folder>
+		<folder>swift</folder>
+		<folder>php</folder>
+		<filename>confirm.php</filename>
+		<filename>confirm_template.html</filename>
+		<filename>signup.php</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>careers.php</filename>
+		<filename>about.php</filename>
+		<filename>contact.php</filename>
+		<filename>press.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>rollover.js</filename>
+</files>
+
+<positions>
+<position>navigation</position>
+<position>footer</position>
+</positions>
+
+</extension>

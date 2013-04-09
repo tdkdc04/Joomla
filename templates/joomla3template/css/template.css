@@ -1,0 +1,546 @@
+.componentheading {
+  
+  font-size:20px;
+  
+
+  }
+  
+
+.contentheading {
+
+  font-size:20px;
+  color:#77aa35;
+  padding-right: 15px;
+  text-shadow:#333 4px 4px 4px;
+  margin-right:15px;
+}
+
+.contentheading a {
+
+}
+/* Vibin Main Page
+ * 
+ * Main CSS File
+ * 
+ * Author: Tae Kim
+ */
+
+  /** MOCK-UP PAGE SYTLINGS */    
+    body {
+      padding-top: 20px;
+      padding-bottom: 40px;
+      background-color: #EEEEEE;
+      
+      border-style:solid;
+      border-top-color:#ff7817;
+      border-left-color:#EEEEEE;
+      border-right-color:#EEEEEE;
+      border-bottom-color:#EEEEEE;
+    }
+    
+    
+    
+    /* Custom container */
+    .container-narrow {
+      margin: 0 auto;
+      max-width: 700px;
+    }
+    .container-narrow > hr {
+      margin: 30px 0;
+    }
+    
+    /* Main marketing message and sign up botton */
+    .jumbotron {
+      margin: 60px 0;
+      text-align: center;
+    }
+    .jumbotron h1 {
+      font-size: 46px;
+      line-height: 1;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .jumbotron .btn {
+      font-size: 21px;
+      padding: 14px 24px;
+    }
+    
+    #googleplay {
+      margin-left: 85px;
+      margin-right: 85px;
+    }
+    #appstore {
+      margin-left: 85px;
+      margin-right: 85px;
+    }
+    img.center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #vrand {
+      margin-left: 20px;
+    }
+    #navilinks {
+      color: #B0B0B0;
+      font-size: 21px;
+      text-align: center;
+      float: none;
+      display: inline-block;
+      margin-left: 50px;
+      margin-right: 20px;
+    }
+    .muted {
+      
+    }
+    a:hover {
+      text-decoration: none;
+    }
+    .btn-vibin {
+      background-color: #FF7817;
+      background-image: none;
+      color: white;
+    }
+    p {
+      text-align: left;
+      size: 36pt;
+      color: #969696;  
+    }
+    ul {
+      float: right;
+    }
+    #twitter {
+      margin-left: 250px;
+    }
+    
+    #careerSW {
+      margin-left: 30px;
+      float: left;
+      max-width: 50px;
+    }
+    
+    #dotted {
+      margin: 20px 0;
+      border: 0;
+      border-top: 1px solid #eeeeee;
+      border-bottom: 1px dotted #FFFFFF;
+    }
+    #orange_coming_soon {
+      color: #FF7817;
+    }
+    #about_logo {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+    
+    .footer {
+      height: 75px;
+      padding-top: 50px;
+    }
+    
+    #navilinks_active {
+      color: #FF7817;
+      font-size: 21px;
+      text-align: center;
+      float: none;
+      display: inline-block;
+      margin-left: 50px;
+      margin-right: 20px;
+    }
+    
+    #p_address {
+      text-align: center;      
+    }
+    
+    #career_title {
+      color: #FF7817;
+    }
+    
+    #mailto {
+      color: #FF7817;
+    }
+    
+    #jobTitles {
+      float: right;
+      padding-right: 150px;
+      color: #FF7817;
+    }
+    
+    #positions {
+      color: #FF7817;
+    }
+    
+    .span8 {
+      margin-top: 20px;
+    }
+    
+    #centeredspan {
+      margin-left: 200px;
+      padding-top: 20px;
+      padding-left: 20px;
+    }
+
+
+  /* Modal Styling */
+  
+    /* Modal btn */
+    /* Button to orange */
+       .btn-primary {
+         background-color: #FF7817;
+         background-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+         color: #FFFFFF;
+         text-shadow: 0 -1px 0rgba(0,0,0,0.25);
+         background-image: -webkit-linear-gradient(top, orange, #FF7817);
+         background-image: -o-liniear-gradient(top, orange, #FF7817);
+        background-image: linear-gradient(to bottom, orange, #FF7817);
+        background-repeat: repeat-x;
+        border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+      }   
+      .btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+         background-color: #FF7817;
+         color: #FFFFFF;
+      }
+      .brn-hover{
+         background-color: #FF7817;
+      }
+       
+       /* a attribut styling */
+       a {
+         color: orange;
+       } 
+       a:hover {
+         color: #FF6600;
+       }
+       
+       #chinese_address {
+         text-align: center;
+       }
+       
+/* ---------R-E-S-P-O-N-S-I-V-E--S-T-Y-L-I-N-G----------- */
+
+  /* Landscape iPhone(max-width:568) to max-width:480 */
+  @media only screen and (max-width: 767px) and (min-width: 569px) {
+    /* Navbar */
+    #navilinks {
+      font-size: 27px;
+      margin-left: 16px;
+      margin-right: 11px;
+    }
+    #navilinks_active {
+      font-size: 27px;
+      margin-left: 16px;
+      margin-right: 11px;
+    }
+    
+    /* Jumbotron - Video */
+    #videos {
+      max-width: 500px;
+      max-height: 375px;
+    }
+    
+    /* Footer Txt */
+    #footer_p {
+      text-align: center;
+    }
+    
+    /* Appstore & Googleplay
+    #appstore {
+      padding-left: 45px;
+      
+    }
+    #googleplay {
+      padding-left: 39px;
+    } */
+    #googleplay {
+      margin-left: 45px;
+      margin-right: 45px;
+    }
+    #appstore {
+      margin-left: 45px;
+      margin-right: 45px;
+    }
+    
+    /* Position QuickLinks */
+    #positions {
+      padding-left: 20px;
+      text-align: left;
+    }
+    #designers {
+      margin-top: 100px;
+    }
+  }
+  
+  @media only screen and (max-width: 568px) and (min-width: 481px) {
+    /* Navbar */
+    #navilinks {
+      font-size: 18px;
+      margin-left: 16px;
+      margin-right: 11px;
+    }
+    #navilinks_active {
+      font-size: 18px;
+      margin-left: 16px;
+      margin-right: 11px;
+    }
+    
+    /* Jumbotron - Video */
+    #videos {
+      max-width: 460px;
+      max-height: 345px;
+    }
+    
+    /* Footer Txt */
+    #footer_p {
+      text-align: center;
+    }
+    
+    /* Appstore & Googleplay
+    #appstore {
+      padding-left: 45px;
+      
+    }
+    #googleplay {
+      padding-left: 39px;
+    } */
+    #appstore {
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 0px;
+    }
+    #googleplay {
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 0px;
+    }
+
+    
+    /* Position QuickLinks */
+    #positions {
+      padding-left: 20px;
+      text-align: left;
+    }
+    #designers {
+      margin-top: 100px;
+    }
+  }
+  
+  /* Landscape phones and down */
+  @media only screen and (max-width: 480px) and (min-width: 381px) { 
+    
+    /* Navbar */
+    #navilinks {
+      font-size: 16px;
+      margin-left: 5px;
+      margin-right: 3px;
+    }
+    #navilinks_active {
+      font-size: 16px;
+      margin-left: 5px;
+      margin-right: 3px;
+    }
+    
+    /* Jumbotron - Video */
+    #videos {
+      max-width: 350px;
+      max-height: 262px;
+    }
+    
+    /* Footer Txt */
+    #footer_p {
+      text-align: center;
+    }
+    
+    /* Appstore & Googleplay */
+    #appstore {
+      padding-left: 15px;
+      margin-bottom: 50px;
+    }
+    #googleplay {
+      padding-left: 8px;
+    }
+    
+    /* #centeredspan for contact.php */
+    #centeredspan {
+        margin-left: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+    } 
+    
+    .jumbotron h1 {
+      font-size: 33px;
+    }
+    
+    .lead {
+      text-align: center;
+    }
+  }
+  
+  /* Portrait crappy phones and down */
+  @media only screen and (max-width: 380px) and (min-width: 321px) {
+    
+    /* Navbar */
+    #navilinks {
+      font-size: 12px;
+      margin-left: 6px;
+      margin-right: 3px;
+    }
+    #navilinks_active {
+      font-size: 12px;
+      margin-left: 6px;
+      margin-right: 3px;
+    }
+    
+    /* Jumbotron - Video */
+    #videos {
+      max-width: 340px;
+      max-height: 255px;
+    }
+    
+    /* Footer Txt */
+    #footer_p {
+      text-align: center;
+    }
+    
+    /* Appstore & Googleplay */
+    #appstore {
+      padding-left: 55px;
+      margin-bottom: 40px;
+    }
+    #googleplay {
+      padding-left: 48px;
+    }
+    
+    /* #centeredspan for contact.php */
+    #centeredspan {
+        margin-left: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+    } 
+  }
+
+  /* Teeny Weeny Screens */
+  @media only screen and (max-width: 320px) {
+    
+    /* Navbar */
+    #navilinks {
+      font-size: 8px;
+      margin-left: 4px;
+      margin-right: 2px;
+    }
+    #navilinks_active {
+      font-size: 8px;
+      margin-left: 4px;
+      margin-right: 2px;
+    }
+    
+    /* Jumbotron - Video */
+    #videos {
+      max-width: 250px;
+      max-height: 187.5px;
+    }
+    
+    /* Footer Txt */
+    #footer_p {
+      text-align: center;
+    }
+    
+    /* Appstore & Googleplay */
+    #appstore {
+      padding-left: 0px;
+      margin-bottom: 40px;
+        margin-left: 45px;
+        margin-right: 0px;
+        float: none;
+    }
+    #googleplay {
+      padding-left: 0px;
+      margin-left: 35px;
+      margin-right: 0px;
+      float: none;
+    }
+    
+    /* #centeredspan for contact.php */
+    #centeredspan {
+        margin-left: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+    } 
+    
+    .jumbotron h1 {
+        font-size: 30px;
+        line-height: 1;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .lead {
+      text-align: center;
+    }
+    
+    h4 {
+      font-size: 17px;
+    }
+    
+    #careerSW {
+      margin-left: 10px;
+      padding-right: 10px;
+    }
+    #positions {
+      font-size: 12px;
+      margin-right: 20px;
+      float: right;
+    }
+    #jobTitles {
+      padding-right: 20px;
+      float: none;
+    }
+    
+    h1 {
+      font-size: 30px;
+    }
+    
+    #vrand {
+      margin: 5px;
+    }
+  }
+
+  /*----------------AJAX------------------*/
+  .response-waiting {
+    background:url("loading.gif") no-repeat;
+  }
+  .response-success {
+    background:url("tick.png") no-repeat;
+  }
+  .response-error {
+    background:url("cross.png") no-repeat;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
